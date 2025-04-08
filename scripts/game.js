@@ -122,7 +122,7 @@ function run(/**@type {Event} */ event) {
     const context = canvas.getContext('2d');
     const paddleHeight = canvasHeight * 0.15;
 
-    const versionMsg = `V 1.0.0 (pineapple)`;
+    const versionMsg = `Firey Firefighter`;
     const versionMsgDisp = new SpriteFont(
         context,
         versionMsg,
@@ -130,7 +130,7 @@ function run(/**@type {Event} */ event) {
             (canvasWidth * 0.75) - (context.measureText(versionMsg).width),
             canvasHeight - (context.measureText(versionMsg).fontBoundingBoxAscent + 10)
         ),
-        'dimgrey'
+        'rgba(0, 43, 235, 0.575)'
     );
 
     const pauseMsg = `PRESS [ ] TO PAUSE`;
@@ -230,7 +230,7 @@ function run(/**@type {Event} */ event) {
     )
 
     const gameObjects = [
-        ball,
+        // ball,
         // pauseMsgDisp,
         // player1Paddle,
         // player2Paddle,
