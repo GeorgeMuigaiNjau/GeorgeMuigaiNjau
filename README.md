@@ -1,3 +1,1 @@
-Adept
-
-Working on personal projects
+Working in collaboration with other people especially on animations and games to make here better
